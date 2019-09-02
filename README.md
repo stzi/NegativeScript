@@ -3,6 +3,10 @@ Convert negatives to positives with parallel processing
 
 This script helps converting photographs of analog negatives into positives.
 
+**Please note, the script is quickly hacked together and is shared here 'as is'!**
+
+Feel free to clone, modify. Contributions, suggestions and improvements are welcome. 
+
 ## What you need
 
 You need a way to execute a bash-script. And you need to have ImageMagick installed. On macOS you can install it with homebrew. 
