@@ -9,9 +9,10 @@ Feel free to clone, modify. Contributions, suggestions and improvements are welc
 
 ## What you need
 
-You need a way to execute a bash-script. And you need to have ImageMagick installed. On macOS you can install it with homebrew. 
+You need a way to execute a bash-script. And you need to have `ImageMagick` and `ufraw` installed. On macOS you can install it with homebrew. 
 
   `#brew install imagemagick`
+  `#brew install ufraw`
   
 At the moment, the script assumes you have a directory full of RAW files from a Canon DSLR (*.CR2). 
   
