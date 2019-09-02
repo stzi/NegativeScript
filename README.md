@@ -21,7 +21,7 @@ The script runs fine on my old 2013 MacBook Pro under Mojave with ImageMagick 7.
 * Not tested under Windows
 * No real error handling is done
 * No support for color negatives. If you use this script to convert color negatives, you will get bad results!
-* No support for input files thar are not of type *.CR2
+* No support for input files that are not of type *.CR2
 
 ## Input
 
