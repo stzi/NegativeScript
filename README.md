@@ -14,16 +14,20 @@ You need a way to execute a bash-script. And you need to have `ImageMagick` and 
 `#brew install imagemagick`
  
 `#brew install ufraw`
+
+On Linux (Ubuntu 16.04) you can install the required tools by:
+
+`#sudo apt install imagemagick ufraw`
   
 At the moment, the script assumes you have a directory full of RAW files from a Canon DSLR (*.CR2). 
   
 ## Known to be working
 
-The script runs fine on my old 2013 MacBook Pro under Mojave with ImageMagick 7.0.8-59 installed from homebrew.
+* The script runs fine on my old 2013 MacBook Pro under Mojave with ImageMagick 7.0.8-59 installed from homebrew.
+* The script runs fine on Ubuntu 16.04 
 
 ## Missing
 
-* Not tested under Linux
 * Not tested under Windows
 * No real error handling is done
 * No support for color negatives. If you use this script to convert color negatives, you will get bad results!
