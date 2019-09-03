@@ -10,6 +10,16 @@ function runner {
   echo "processing " $1 "done"
 }
 
+if ! [ -x "$(command -v convert)" ]; then
+  echo 'Error: ImageMagick is not available.' >&2
+  exit 1
+fi
+
+if ! [ -x "$(command -v ufraw-batch)" ]; then
+  echo 'Error: ufraw is not available.' >&2
+  exit 1
+fi
+
 if [ ! -d "$OUTDIR" ]
   then
     echo "output-directory not available. creating:" $OUTDIR
