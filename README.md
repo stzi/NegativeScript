@@ -7,6 +7,8 @@ This script helps converting photographs of analog negatives into positives.
 
 Feel free to clone, modify. Contributions, suggestions and improvements are welcome. 
 
+![What it does...](images/IMG_6596.jpg)
+
 ## What you need
 
 You need a way to execute a bash-script. And you need to have `ImageMagick` and `ufraw` installed. On macOS you can install it with homebrew. 
