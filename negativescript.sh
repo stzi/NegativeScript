@@ -26,6 +26,7 @@ if [ ! -d "$OUTDIR" ]
     mkdir -p "$OUTDIR"
     for i in $(ls $INDIR/*.CR2); do
       runner $i &
+      sleep 1
       while [ $(jobs -r | wc -l) -ge $MAX_JOBS ]; do sleep 1; done
     done
     echo "Wating for background processes to finish ..."
