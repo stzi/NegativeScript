@@ -23,9 +23,14 @@ At the moment, the script assumes you have a directory full of RAW files from a 
   
 ## Known to be working
 
-* The script runs fine on my old 2013 MacBook Pro under Mojave with ImageMagick 7.0.8-59 installed from homebrew.
-* The script runs fine on Ubuntu 16.04 
+### Runtime environment
 
+* The script runs fine on my old 2013 MacBook Pro under Mojave with ImageMagick 7.0.8-59 installed from homebrew.
+* The script runs fine on Ubuntu 16.04
+
+### Cameras
+* Canon EOS 200D
+ 
 ## Missing
 
 * Not tested under Windows
