@@ -6,7 +6,7 @@ MAX_JOBS=$2;
 function runner {
   echo "processing " $1 "start"
   OUTNAME=$(basename $i .CR2).tif
-  convert $1 -negate -channel RGB $OUTDIR/$OUTNAME;
+  nice -n 20 convert $1 -negate -channel RGB $OUTDIR/$OUTNAME;
   echo "processing " $1 "done"
 }
 
