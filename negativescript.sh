@@ -28,7 +28,7 @@ fi
 echo "creating output directory:" $OUTDIR
 mkdir -p "$OUTDIR"
 
-for i in $(ls $INDIR/*.CR2); do
+for i in $(ls $INDIR/* | egrep -i '\.cr2$|\.cr3$'); do
   runner $i &
   sleep 1
   while [ $(jobs -r | wc -l) -ge $MAX_JOBS ]; do sleep 1; done
