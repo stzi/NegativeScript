@@ -32,6 +32,11 @@ At the moment, the script assumes you have a directory full of RAW files from a 
 
 ### Cameras
 * Canon EOS 200D
+
+## Not working
+
+### Cameras
+* All of the newer Canon cameras that produce CR3 files 
  
 ## Missing
 
